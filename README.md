@@ -1,20 +1,27 @@
 # CECA DEV AI — versions officielles Windows
 
-Ce dépôt est réservé aux installateurs Windows compilés, aux fichiers de mise à
-jour signés et aux notes de version de CECA DEV AI. Le code source de l’application
-reste dans un dépôt privé distinct.
+Ce dépôt public contient uniquement les installateurs compilés, signatures Tauri,
+manifestes et notes de version. Le code source reste privé.
 
-**La première version publique est en préparation. Aucun installateur stable
-n’est encore publié ici.** N’utilisez pas un lien de téléchargement non vérifié.
+- [Dernière version stable](https://github.com/celenoca89110-eng/CECA-DEV-AI-Releases/releases/latest)
+- [Télécharger la version stable Windows x64](https://github.com/celenoca89110-eng/CECA-DEV-AI-Releases/releases/latest/download/CECA-DEV-AI-Windows-x64-setup.exe)
+- [Présentation et installation](https://cecabotweb-ceca2.vercel.app/projets/ceca-dev-ai)
+- [Documentation](https://cecabotweb-ceca2.vercel.app/documentation/ceca-dev-ai)
 
-- Présentation officielle : https://cecabotweb-ceca2.vercel.app/projets/ceca-dev-ai
-- Guide : https://cecabotweb-ceca2.vercel.app/documentation/ceca-dev-ai
+## Canaux
 
-Après validation et publication, la section Releases proposera l’installateur
-Windows x64, sa signature de mise à jour, le manifeste, les empreintes SHA-256 et
-les nouveautés. Aucun compte GitHub ne sera nécessaire pour télécharger une
-version publique.
+Le canal Stable ne distribue pas de RC. Le canal Préversion est volontaire dans
+les applications comportant ce réglage. Son manifeste `preview.json` n'est pas
+le manifeste stable `latest.json` ; une RC publiée ne remplace pas la stable.
+Les anciennes versions sans sélecteur exigent une première installation volontaire
+d'une RC comportant les canaux, puis peuvent rechercher les RC suivantes dans
+Paramètres → Mises à jour → Préversion. Aucune installation sans confirmation.
 
-La signature des mises à jour Tauri est distincte de la signature de code Windows.
-Les versions 0.1.0 n’ayant pas d’updater nécessiteront une installation de transition
-pour ajouter cette fonction. Aucun paiement n’est effectué depuis ce dépôt.
+Les limites de validation de chaque artefact figurent dans ses notes de version.
+Un téléchargement vérifié ne constitue pas une preuve d'installation réussie.
+Conservez une sauvegarde avant d'installer une préversion.
+
+La signature Tauri protège les mises à jour et lie l'artefact à sa version. Elle
+ne remplace pas une signature Windows Authenticode : en son absence, SmartScreen
+peut avertir. Ne désactivez ni l'antivirus, ni TLS, ni les contrôles Windows.
+Aucun secret, clé privée, code privé ou paiement ne doit être ajouté à ce dépôt.

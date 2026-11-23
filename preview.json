@@ -1,0 +1,18 @@
+{
+  "version": "0.3.3-rc.2",
+  "channel": "preview",
+  "notes": "# CECA DEV AI 0.3.3-rc.2\n\nVersion interne : 0.3.3-rc.2\nCanal Préversion : volontaire\n\n- Choix explicite Stable / Préversion dans les paramètres, conservé dans le profil utilisateur.\n- Comparaison SemVer des RC, refus des régressions et des installateurs hors du dépôt officiel.\n- Vérification Tauri, liaison de la signature à la version, taille et SHA-256 avant toute installation.\n- Progression, notes de version et confirmation avant installation ; installation bloquée pendant une tâche Agent.\n- Les modifications Terra/Ollama et le chat unifié déjà publiés sont conservés. Aucun appel OpenAI supplémentaire effectué pour cette publication.\n\nInstallation de cet artefact : non testée\nMise à jour avec cet artefact, redémarrage et conservation des données : non testés.\nWindows propre : non testé. Auth0 interactif avec ce binaire : non testé.\nLe test réel Terra Agent réussi concerne la précédente 0.3.2 RC3, pas cet installateur.\nAuthenticode : absent. Windows/SmartScreen ou l'antivirus peuvent afficher un avertissement ; ne désactivez aucune protection.\n\nLes anciennes versions sans sélecteur de canal ne peuvent pas recevoir une RC par le canal Stable. L'installation volontaire initiale de cette préversion est nécessaire pour accéder au nouveau canal. Le manifeste Stable et la version stable 0.2.1 restent inchangés.\nLes données utilisateur ne sont pas supprimées par l'installateur. Sauvegardez-les avant tout essai de préversion ; leur conservation avec cet artefact reste à valider.\n",
+  "pub_date": "2026-11-23T20:52:40.481Z",
+  "size": 4744528,
+  "sha256": "03794ca9c315bf3a4dde4c0d72ebf2ed5106db2bf8196e94a235ab3e8bb3b99a",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/celenoca89110-eng/CECA-DEV-AI-Releases/releases/download/v0.3.3-rc.2/CECA-DEV-AI-0.3.3-rc.2-Windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSR0ZidU1GLzVMTFNYTVJoVDMrbE8remdGck1mUkFUNno5ODFkV0RhVFR4UE9lTUFoYlVvTDVxTnloVlhxRVJ3VE9ZOWVlcnVvYXlWMXpGQ01zTDFOK3RXVy9qUVhsa1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDY3MTAzCWZpbGU6Q0VDQSBERVYgQUlfMC4zLjMtcmMuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjMtcmMuMgpxVzJtOVVMRERkMjl1NWZLbk9rWC9LVGtnUlV3WFlSelV4TkhXOURPaUI2WGlpby9JcGs4NHJMdFhMYUFWdVlKaXZJTExseTFkZnlvSENwQklJMjdBdz09Cg=="
+    },
+    "windows-x86_64-nsis": {
+      "url": "https://github.com/celenoca89110-eng/CECA-DEV-AI-Releases/releases/download/v0.3.3-rc.2/CECA-DEV-AI-0.3.3-rc.2-Windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSR0ZidU1GLzVMTFNYTVJoVDMrbE8remdGck1mUkFUNno5ODFkV0RhVFR4UE9lTUFoYlVvTDVxTnloVlhxRVJ3VE9ZOWVlcnVvYXlWMXpGQ01zTDFOK3RXVy9qUVhsa1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDY3MTAzCWZpbGU6Q0VDQSBERVYgQUlfMC4zLjMtcmMuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjMtcmMuMgpxVzJtOVVMRERkMjl1NWZLbk9rWC9LVGtnUlV3WFlSelV4TkhXOURPaUI2WGlpby9JcGs4NHJMdFhMYUFWdVlKaXZJTExseTFkZnlvSENwQklJMjdBdz09Cg=="
+    }
+  }
+}
