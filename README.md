@@ -8,6 +8,14 @@ manifestes et notes de version. Le code source reste privé.
 - [Présentation et installation](https://cecabotweb-ceca2.vercel.app/projets/ceca-dev-ai)
 - [Documentation](https://cecabotweb-ceca2.vercel.app/documentation/ceca-dev-ai)
 
+## Depuis la version 0.2.1
+
+Ouvrez **Paramètres** puis **Rechercher des mises à jour**. Lorsque la version
+disponible apparaît, si les paramètres sont encore au premier plan, fermez-les
+avec la croix en haut à droite. Dans la fenêtre de mise à jour, vérifiez la
+version proposée et cliquez sur **Mettre à jour et redémarrer**. L’application
+télécharge la mise à jour signée et redémarre après l’installation.
+
 ## Canaux
 
 Le canal Stable ne distribue pas de RC. Le canal Préversion est volontaire dans
